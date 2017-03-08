@@ -4,12 +4,6 @@
 @import url('font-awesome.min.css');
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
-/*
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 	@import "libs/skel";
 
 	@include skel-breakpoints((
@@ -900,7 +894,7 @@
 		background-color:		_palette(accent2, bg);
 		background-attachment:	scroll,								fixed;
 		background-image:		url('images/overlay.png'),			url('../../images/bg.jpg');
-		background-position:	top left,							top left;
+		background-position:	top center,							top center;
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								auto 100%;
 		color: _palette(accent2, fg);
